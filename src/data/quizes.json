@@ -222,5 +222,142 @@
               ]
           }
       ]
-  }
+  },
+  {
+    "id":3,
+    "img":"https://www.thoughtco.com/thmb/3tBUWJw6qSeat-rotF5U6XH6pks=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-515032157-56954ed65f9b58eba49ab82e.jpg",
+    "name":"Chemisry",
+    "questions": [
+        {
+            "id":1,
+            "text":"One of the essential minerals in the human body is salt. How much salt (NaCl) is in the average adult human body?",
+            "options":[
+                {
+                    "id":1,
+                    "text": "1 kilogram",
+                    "isCorrect":false
+                },
+                {
+                    "id":2,
+                    "text": "500 grams",
+                    "isCorrect":false
+                },
+                {
+                    "id":3,
+                    "text": "250 grams",
+                    "isCorrect":true
+                },
+                {
+                    "id":4,
+                    "text": "practically none",
+                    "isCorrect":false
+                }
+            ]
+        },
+        {
+            "id":2,
+            "text":"If you fill a glass to the brim with ice water and the ice melts, what will happen?",
+            "options":[
+                {
+                    "id":1,
+                    "text": "The glass will over flow as the ice turns to water.",
+                    "isCorrect":false
+                },
+                {
+                    "id":2,
+                    "text": "The level of water in the glass will remain unchanged as the ice melts.9",
+                    "isCorrect":false
+                },
+                {
+                    "id":3,
+                    "text": "The water level will drop slightly as the ice melts.",
+                    "isCorrect":true
+                },
+                {
+                    "id":4,
+                    "text": "I'll never find out because I'll drink the water or walk away before anything happens.",
+                    "isCorrect":false
+                }
+            ]
+        },
+        {
+            "id":3,
+            "text":"What is the most common isotope of hydrogen?",
+            "options":[
+                {
+                    "id":1,
+                    "text": "Protium",
+                    "isCorrect":true
+                },
+                {
+                    "id":2,
+                    "text": "Deuterium",
+                    "isCorrect":false
+                },
+                {
+                    "id":3,
+                    "text": "Tritum",
+                    "isCorrect":false
+                },
+                {
+                    "id":4,
+                    "text": "Hydrogen only has one isotope!",
+                    "isCorrect":false
+                }
+            ]
+        },
+        {
+            "id":4,
+            "text":" You can't live without water! What is its chemical formula?",
+            "options":[
+                {
+                    "id":1,
+                    "text": "H2",
+                    "isCorrect":false
+                },
+                {
+                    "id":2,
+                    "text": "H2O2",
+                    "isCorrect":false
+                },
+                {
+                    "id":3,
+                    "text": "H2O",
+                    "isCorrect":true
+                },
+                {
+                    "id":4,
+                    "text": "O2",
+                    "isCorrect":false
+                }
+            ]
+        },
+        {
+            "id":5,
+            "text":"Which of these elements is a nonmetal?",
+            "options":[
+                {
+                    "id":1,
+                    "text": "Aluminum",
+                    "isCorrect":false
+                },
+                {
+                    "id":2,
+                    "text": "Sulfur",
+                    "isCorrect":true
+                },
+                {
+                    "id":3,
+                    "text": "Manganese",
+                    "isCorrect":false
+                },
+                {
+                    "id":4,
+                    "text": "Beryllium",
+                    "isCorrect":false
+                }
+            ]
+        }
+    ]
+}
 ]
