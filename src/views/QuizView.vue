@@ -17,8 +17,15 @@
   }
   header h4 {
     font-size: 30px;
+  }
+  .bar {
+    width: 300px;
+    height: 50px;
+    border: 3px solid bisque;
   }  
+  .completion {
+    height: 100%;
+    width: 33%;
+    background-color: bisque;
+  }
 </style>
-
-
-
