@@ -10,16 +10,19 @@
               "options":[
                   {
                       "id":1,
+                      "label": "A",
                       "text": "Mitochondria",
                       "isCorrect":true
                   },
                   {
                       "id":2,
+                      "label": "B",
                       "text": "Nucleus",
                       "isCorrect":false
                   },
                   {
                       "id":3,
+                      "label": "C",
                       "text": "Rough ER",
                       "isCorrect":false
                   }
@@ -31,16 +34,19 @@
               "options":[
                   {
                       "id":1,
+                      "label": "A",
                       "text": "plane",
                       "isCorrect":true
                   },
                   {
                       "id":2,
+                      "label": "B",
                       "text": "plan",
                       "isCorrect":false
                   },
                   {
                       "id":3,
+                      "label": "C",
                       "text": "pleen",
                       "isCorrect":false
                   }
@@ -48,63 +54,72 @@
           },
           {
               "id":3,
-              "text":"https://images.unsplash.com/photo-1525498128493-380d1990a112?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBsYW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+              "text":"What does DNA stand for?",
               "options":[
                   {
                       "id":1,
-                      "text": "plant",
+                      "label": "A",
+                      "text": "Deoxyribonucleic Acid",
                       "isCorrect":true
                   },
                   {
                       "id":2,
-                      "text": "planet",
+                      "label": "B",
+                      "text": "Dehydrogenated Acid",
                       "isCorrect":false
                   },
                   {
                       "id":3,
-                      "text": "plat",
+                      "label": "C",
+                      "text": "Decreased Nature Alliance",
                       "isCorrect":false
                   }
               ]
           },
           {
               "id":4,
-              "text":"https://as2.ftcdn.net/jpg/01/84/78/27/220_F_184782748_pbkDP5GZRET6vREqm1ePMK2MU8uOtkvY.jpg",
+              "text":"How many object stady of biology",
               "options":[
                   {
                       "id":1,
+                      "label": "A",
                       "text": "three shells",
                       "isCorrect":true
                   },
                   {
                       "id":2,
-                      "text": "thre shells",
+                      "label": "B",
+                      "text": "one shells",
                       "isCorrect":false
                   },
                   {
                       "id":3,
-                      "text": "tree shalls",
+                      "label": "C",
+                      "text": "none shalls",
                       "isCorrect":false
                   }
               ]
           },
           {
               "id":5,
-              "text":"https://images.unsplash.com/photo-1589857407734-757dab6f2c16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmVkJTIwY3VwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+              "text":"What color and whatever your can answer?",
               "options":[
                   {
                       "id":1,
+                      "label": "A",
                       "text": "red cup",
                       "isCorrect":true
                   },
                   {
                       "id":2,
-                      "text": "red cop",
+                      "label": "B",
+                      "text": "green cop",
                       "isCorrect":false
                   },
                   {
                       "id":3,
-                      "text": "rad cop",
+                      "label": "C",
+                      "text": "grey cap",
                       "isCorrect":false
                   }
               ]
@@ -118,20 +133,23 @@
       "questions": [
           {
               "id":1,
-              "text":"8 + 4 = ",
+              "text":"8 : 2(2 + 2) = ",
               "options":[
                   {
                       "id":1,
-                      "text": "12",
+                      "label": "A",
+                      "text": "1",
                       "isCorrect":true
                   },
                   {
                       "id":2,
+                      "label": "B",
                       "text": "13",
                       "isCorrect":false
                   },
                   {
                       "id":3,
+                      "label": "C",
                       "text": "9",
                       "isCorrect":false
                   }
@@ -143,16 +161,19 @@
               "options":[
                   {
                       "id":1,
+                      "label": "A",
                       "text": "6",
                       "isCorrect":true
                   },
                   {
                       "id":2,
+                      "label": "B",
                       "text": "9",
                       "isCorrect":false
                   },
                   {
                       "id":3,
+                      "label": "C",
                       "text": "11",
                       "isCorrect":false
                   }
@@ -164,16 +185,19 @@
               "options":[
                   {
                       "id":1,
+                      "label": "A",
                       "text": "17",
                       "isCorrect":true
                   },
                   {
                       "id":2,
+                      "label": "B",
                       "text": "15",
                       "isCorrect":false
                   },
                   {
                       "id":3,
+                      "label": "C",
                       "text": "18",
                       "isCorrect":false
                   }
@@ -185,16 +209,19 @@
               "options":[
                   {
                       "id":1,
+                      "label": "A",
                       "text": "15",
                       "isCorrect":true
                   },
                   {
                       "id":2,
+                      "label": "B",
                       "text": "13",
                       "isCorrect":false
                   },
                   {
                       "id":3,
+                      "label": "C",
                       "text": "16",
                       "isCorrect":false
                   }
@@ -206,16 +233,19 @@
               "options":[
                   {
                       "id":1,
+                      "label": "A",
                       "text": "1",
                       "isCorrect":true
                   },
                   {
                       "id":2,
+                      "label": "B",
                       "text": "2",
                       "isCorrect":false
                   },
                   {
                       "id":3,
+                      "label": "C",
                       "text": "10",
                       "isCorrect":false
                   }
@@ -234,21 +264,25 @@
             "options":[
                 {
                     "id":1,
+                    "label": "A",
                     "text": "1 kilogram",
                     "isCorrect":false
                 },
                 {
                     "id":2,
+                    "label": "B",
                     "text": "500 grams",
                     "isCorrect":false
                 },
                 {
                     "id":3,
+                    "label": "C",
                     "text": "250 grams",
                     "isCorrect":true
                 },
                 {
                     "id":4,
+                    "label": "D",
                     "text": "practically none",
                     "isCorrect":false
                 }
@@ -260,22 +294,26 @@
             "options":[
                 {
                     "id":1,
+                    "label": "A",
                     "text": "The glass will over flow as the ice turns to water.",
                     "isCorrect":false
                 },
                 {
                     "id":2,
-                    "text": "The level of water in the glass will remain unchanged as the ice melts.9",
+                    "label": "B",
+                    "text": "The level of water in the glass will remain unchanged",
                     "isCorrect":false
                 },
                 {
                     "id":3,
+                    "label": "C",
                     "text": "The water level will drop slightly as the ice melts.",
                     "isCorrect":true
                 },
                 {
                     "id":4,
-                    "text": "I'll never find out because I'll drink the water or walk away before anything happens.",
+                    "label": "D",
+                    "text": "I'll never find out because I'll drink the water or walk away.",
                     "isCorrect":false
                 }
             ]
@@ -286,21 +324,25 @@
             "options":[
                 {
                     "id":1,
+                    "label": "A",
                     "text": "Protium",
                     "isCorrect":true
                 },
                 {
                     "id":2,
+                    "label": "B",
                     "text": "Deuterium",
                     "isCorrect":false
                 },
                 {
                     "id":3,
+                    "label": "C",
                     "text": "Tritum",
                     "isCorrect":false
                 },
                 {
                     "id":4,
+                    "label": "D",
                     "text": "Hydrogen only has one isotope!",
                     "isCorrect":false
                 }
@@ -312,21 +354,25 @@
             "options":[
                 {
                     "id":1,
+                    "label": "A",
                     "text": "H2",
                     "isCorrect":false
                 },
                 {
                     "id":2,
+                    "label": "B",
                     "text": "H2O2",
                     "isCorrect":false
                 },
                 {
                     "id":3,
+                    "label": "C",
                     "text": "H2O",
                     "isCorrect":true
                 },
                 {
                     "id":4,
+                    "label": "D",
                     "text": "O2",
                     "isCorrect":false
                 }
@@ -338,21 +384,25 @@
             "options":[
                 {
                     "id":1,
+                    "label": "A",
                     "text": "Aluminum",
                     "isCorrect":false
                 },
                 {
                     "id":2,
+                    "label": "B",
                     "text": "Sulfur",
                     "isCorrect":true
                 },
                 {
                     "id":3,
+                    "label": "C",
                     "text": "Manganese",
                     "isCorrect":false
                 },
                 {
                     "id":4,
+                    "label": "D",
                     "text": "Beryllium",
                     "isCorrect":false
                 }

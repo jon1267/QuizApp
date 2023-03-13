@@ -13,9 +13,9 @@
   <div class="options-container">
     <!-- добавить label в quizes.json !!! -->
     <div v-for="option in question.options" :key="option.id" class="option">
-      <p class="option-label">A</p>
+      <p class="option-label">{{ option.label }}</p>
       <div class="option-value">
-        <p>NaCl</p>
+        <p>{{ option.text }}</p>
       </div>
     </div>
 
