@@ -27,6 +27,9 @@
     return `${currentQuestionIndex.value/quiz.questions.length * 100}%`
   });
 
+  const onOptionSelected = (isCorrect) => {
+    console.log("function onOptionSelected ", isCorrect)
+  }
 </script>
 
 <template>
@@ -37,7 +40,10 @@
         :barPercentage = "barPercentage" 
       />
     <div>
-      <Question :question="quiz.questions[currentQuestionIndex]" />
+      <Question 
+        :question="quiz.questions[currentQuestionIndex]" 
+        @selectOption="onOptionSelected"
+      />
     </div>
     <button @click="currentQuestionIndex++">Next Question</button>
     <button @click="currentQuestionIndex--">Back Previus</button>
