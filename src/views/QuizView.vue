@@ -8,10 +8,9 @@
 
   const route = useRoute();
   const quizId = route.params.id; //console.log(quizId);
-  
-  const quiz = quizes.find(q => q.id == quizId); //console.log(quiz);
-  
+  const quiz = quizes.find(q => q.id == quizId); //console.log(quiz); 
   const currentQuestionIndex = ref(0);
+  const numberCorrectAnswers = ref(0);
 
   // const && watch work together
   //const questionStatus = ref(`${currentQuestionIndex.value}/${quiz.questions.length}`)
@@ -28,7 +27,10 @@
   });
 
   const onOptionSelected = (isCorrect) => {
-    console.log("function onOptionSelected ", isCorrect)
+    if(isCorrect) {
+      numberCorrectAnswers.value++;
+    }
+    currentQuestionIndex.value++;
   }
 </script>
 
@@ -44,8 +46,9 @@
         :question="quiz.questions[currentQuestionIndex]" 
         @selectOption="onOptionSelected"
       />
+      {{ numberCorrectAnswers }}
     </div>
     <button @click="currentQuestionIndex++">Next Question</button>
-    <button @click="currentQuestionIndex--">Back Previus</button>
+    <!--<button @click="currentQuestionIndex--">Back Previus</button>-->
   </div>
 </template>
