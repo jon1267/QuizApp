@@ -1,6 +1,7 @@
 <script setup>
   import Question from '../components/Question.vue';
   import QuizHeader from '../components/QuizHeader.vue';
+  import Result from '../components/Result.vue';
   import { useRoute } from 'vue-router';
   import { ref, watch, computed } from 'vue';
   import quizes from "../data/quizes.json";
@@ -11,6 +12,7 @@
   const quiz = quizes.find(q => q.id == quizId); //console.log(quiz); 
   const currentQuestionIndex = ref(0);
   const numberCorrectAnswers = ref(0);
+  const showResults = ref(false);
 
   // const && watch work together
   //const questionStatus = ref(`${currentQuestionIndex.value}/${quiz.questions.length}`)
@@ -30,6 +32,10 @@
     if(isCorrect) {
       numberCorrectAnswers.value++;
     }
+
+    if(quiz.questions.length - 1 === currentQuestionIndex.value) {
+      showResults.value = true
+    }
     currentQuestionIndex.value++;
   }
 </script>
@@ -43,12 +49,17 @@
       />
     <div>
       <Question 
+        v-if="!showResults"
         :question="quiz.questions[currentQuestionIndex]" 
         @selectOption="onOptionSelected"
       />
-      {{ numberCorrectAnswers }}
+      <Result 
+        v-else 
+        :quizQuestionLength="quiz.questions.length"
+        :numberCorrectAnswers="numberCorrectAnswers"
+      />
     </div>
-    <button @click="currentQuestionIndex++">Next Question</button>
-    <!--<button @click="currentQuestionIndex--">Back Previus</button>-->
+    <!-- <button @click="currentQuestionIndex++">Next Question</button> -->
+    <!-- -- <button @click="currentQuestionIndex--">Back Previus</button> -- -->
   </div>
 </template>
